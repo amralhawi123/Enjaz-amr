@@ -150,10 +150,11 @@ export const footerLinks = [
     id: nanoid(),
     title: "اللينكات السريعة",
     links: [
-      { id: nanoid(), path: "#", text: "الرئيسية" },
-      { id: nanoid(), path: "#", text: "كيف يعمل" },
-      { id: nanoid(), path: "#", text: "الآراء" },
-      { id: nanoid(), path: "#", text: "تواصل معنا" },
+      { id: nanoid(), path: "/", text: "الرئيسية" },
+      { id: nanoid(), path: "/how-it-works", text: "كيف يعمل" },
+      { id: nanoid(), path: "/opinions", text: "الآراء" },
+      { id: nanoid(), path: "/features", text: "مميزاتنا" },
+      { id: nanoid(), path: "/contact", text: "تواصل معنا" },
     ],
   },
   {
