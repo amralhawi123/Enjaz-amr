@@ -31,7 +31,7 @@ function Navbar() {
       className="bg-white py-[1rem] fixed top-0 w-full z-[999999999] ease-in-out duration-300"
     >
       <div className="container mx-auto w-full flex items-center justify-between gap-x-24">
-      <a href="/">
+        <a href="/">
           <img src="/assets/images/enjaz-logo.png" alt="Enjaz logo" />
         </a>
 
@@ -41,7 +41,7 @@ function Navbar() {
             return (
               <li key={id}>
                 <a href={path}>
-                  <button className="text-[#060505] text-lg font-medium">
+                  <button className="text-[#060505] text-lg font-semibold">
                     {text}
                   </button>
                 </a>
@@ -50,7 +50,7 @@ function Navbar() {
           })}
         </menu>
 
-        <a href="/" className="bg-[#1BAC4B] text-white py-4 px-8 rounded-xl">
+        <a href="/" className="bg-[#1BAC4B] text-white font-semibold py-4 px-8 rounded-xl">
           حمل التطبيق
         </a>
       </div>

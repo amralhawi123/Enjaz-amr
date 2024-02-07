@@ -18,6 +18,11 @@ export const navLinks = [
   },
   {
     id: nanoid(),
+    text: "الشاشات ",
+    path: "/screens",
+  },
+  {
+    id: nanoid(),
     text: "مميزاتنا",
     path: "/features",
   },
@@ -88,6 +93,28 @@ export const clients = [
     calender: "10/1",
     rate: "4.9/5",
     name: "Sara Ahmed",
+  },
+];
+export const screens = [
+  {
+    id: nanoid(),
+    image: "/assets/images/client-12.png",
+  },
+  {
+    id: nanoid(),
+    image: "/assets/images/client-13.png",
+  },
+  {
+    id: nanoid(),
+    image: "/assets/images/client-12.png",
+  },
+  {
+    id: nanoid(),
+    image: "/assets/images/client-13.png",
+  },
+  {
+    id: nanoid(),
+    image: "/assets/images/client-12.png",
   },
 ];
 

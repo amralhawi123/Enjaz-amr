@@ -6,7 +6,7 @@ body {
   scroll-behavior: smooth;
 }
 body * {
-  font-family: "Almarai", sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 @layer utilities {

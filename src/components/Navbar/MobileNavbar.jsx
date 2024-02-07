@@ -60,7 +60,7 @@ function MobileNavbar() {
             return (
               <li key={id}>
                 <a href={path}>
-                  <button className="text-[#fff] text-lg font-medium">
+                  <button className="text-[#fff] text-lg font-semibold">
                     {text}
                   </button>
                 </a>

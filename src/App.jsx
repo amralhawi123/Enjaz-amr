@@ -8,6 +8,7 @@ import {
   MobileNavbar,
   ClientsOpenion,
   Features,
+  Screens,
 } from "./components";
 import { Route, Routes } from "react-router-dom";
 
@@ -36,6 +37,7 @@ function App() {
       <Route path="/" element={<Hero />} /> 
       <Route path="/how-it-works" element={<HowItWorks />} /> 
       <Route path="/opinions" element={<ClientsOpenion />}/>  
+      <Route path="/screens" element={<Screens />}/>  
       <Route path="/features" element={<Features />}/> 
       <Route path="/contact" element={<Contact />} /> 
     </Routes>
