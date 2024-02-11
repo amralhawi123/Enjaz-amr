@@ -98,23 +98,47 @@ export const clients = [
 export const screens = [
   {
     id: nanoid(),
-    image: "/assets/images/client-12.png",
+    image: "/assets/images/buyer.png",
   },
   {
     id: nanoid(),
-    image: "/assets/images/client-13.png",
+    image: "/assets/images/login.png",
   },
   {
     id: nanoid(),
-    image: "/assets/images/client-12.png",
+    image: "/assets/images/logo.png",
   },
   {
     id: nanoid(),
-    image: "/assets/images/client-13.png",
+    image: "/assets/images/seller.png",
   },
   {
     id: nanoid(),
-    image: "/assets/images/client-12.png",
+    image: "/assets/images/signup.png",
+  },
+  {
+    id: nanoid(),
+    image: "/assets/images/status.png",
+  },
+  {
+    id: nanoid(),
+    image: "/assets/images/steps.png",
+  },
+  {
+    id: nanoid(),
+    image: "/assets/images/transfer.png",
+  },
+  {
+    id: nanoid(),
+    image: "/assets/images/forgetpass.png",
+  },
+  {
+    id: nanoid(),
+    image: "/assets/images/fingerprint.png",
+  },
+  {
+    id: nanoid(),
+    image: "/assets/images/datails.png",
   },
 ];
 
