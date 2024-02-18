@@ -32,7 +32,7 @@ function Navbar() {
     >
       <div className="container mx-auto w-full flex items-center justify-between gap-x-24">
         <a href="/">
-          <img src="/assets/images/enjaz-logo.png" alt="Enjaz logo" />
+          <img src="/assets/images/logo1.svg" alt="Enjaz logo" width={70}/>
         </a>
 
         <menu className="flex-1 self-center flex items-center justify-center gap-x-8">
