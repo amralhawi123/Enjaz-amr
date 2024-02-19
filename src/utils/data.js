@@ -98,48 +98,61 @@ export const clients = [
 export const screens = [
   {
     id: nanoid(),
-    image: "/assets/images/buyer.png",
+    image: "/assets/New folder/cardatails_nav.png",
   },
   {
     id: nanoid(),
-    image: "/assets/images/login.png",
+    image: "/assets/New folder/transfer_nav2.png",
   },
   {
     id: nanoid(),
-    image: "/assets/images/logo.png",
+    image: "/assets/New folder/transfer_nav.png",
   },
   {
     id: nanoid(),
-    image: "/assets/images/seller.png",
+    image: "/assets/New folder/status.png",
   },
   {
     id: nanoid(),
-    image: "/assets/images/signup.png",
+    image: "/assets/New folder/buyer.png",
   },
   {
     id: nanoid(),
-    image: "/assets/images/status.png",
+    image: "/assets/New folder/fingerprint.png",
   },
   {
     id: nanoid(),
-    image: "/assets/images/steps.png",
+    image: "/assets/New folder/forgetpass.png",
   },
   {
     id: nanoid(),
-    image: "/assets/images/transfer.png",
+    image: "/assets/New folder/transfer.png",
   },
   {
     id: nanoid(),
-    image: "/assets/images/forgetpass.png",
+    image: "/assets/New folder/seller.png",
   },
   {
     id: nanoid(),
-    image: "/assets/images/fingerprint.png",
+    image: "/assets/New folder/login.png",
   },
   {
     id: nanoid(),
-    image: "/assets/images/datails.png",
+    image: "/assets/New folder/datails.png",
   },
+  {
+    id: nanoid(),
+    image: "/assets/New folder/notifications.png",
+  },
+  {
+    id: nanoid(),
+    image: "/assets/New folder/signup.png",
+  },
+  {
+    id: nanoid(),
+    image: "/assets/New folder/steps.png",
+  },
+
 ];
 
 export const features = [
