@@ -25,30 +25,6 @@ function Hero() {
         </div>
 
         <div className="flex-1" style={{ position: "relative" }}>
-          {/* <img
-            src="/assets/New folder/transfer_nav2.png"
-            alt="hero section image"
-            className="max-w-full"
-            style={{
-              position: "absolute",
-              top: "20px",
-              left: "210px",
-              width: "550px",
-              zIndex: "-1",
-            }}
-          />
-          <img
-            src="/assets/New folder/transfer_nav.png"
-            alt="hero section image"
-            className="max-w-full"
-            style={{
-              position: "absolute",
-              top: "40px",
-              left: "-40px",
-              width: "500px",
-              zIndex: "-1",
-            }}
-          /> */}
           <img
             src="/assets/New folder/Untitled-2.png"
             alt="hero section image"
