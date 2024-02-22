@@ -24,30 +24,36 @@ function Hero() {
           </div>
         </div>
 
-        <div className="flex-1" style={{ position:"relative" }}>
-          <img
-            src="/assets/New folder/cardatails_nav.png"
-            alt="hero section image"
-            className="max-w-full"
-            style={{width:"650px"}}
-          />
-          <img
+        <div className="flex-1" style={{ position: "relative" }}>
+          {/* <img
             src="/assets/New folder/transfer_nav2.png"
             alt="hero section image"
             className="max-w-full"
-            style={{position:"absolute",
-            top:'0',
-          left:"150px",
-        width:"550px"}}
+            style={{
+              position: "absolute",
+              top: "20px",
+              left: "210px",
+              width: "550px",
+              zIndex: "-1",
+            }}
           />
           <img
             src="/assets/New folder/transfer_nav.png"
             alt="hero section image"
             className="max-w-full"
-            style={{position:"absolute",
-          top:'40px',
-        left:"-100px",
-        width:"500px"}}
+            style={{
+              position: "absolute",
+              top: "40px",
+              left: "-40px",
+              width: "500px",
+              zIndex: "-1",
+            }}
+          /> */}
+          <img
+            src="/assets/New folder/Untitled-2.png"
+            alt="hero section image"
+            className="max-w-full"
+            style={{ width: "650px" }}
           />
         </div>
       </div>
