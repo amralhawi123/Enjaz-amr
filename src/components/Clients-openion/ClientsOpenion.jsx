@@ -49,7 +49,16 @@ function ClientsOpenion() {
                     </div>
                   </div>
 
-                  <img src={image} alt="" />
+                  <img
+                    src={image}
+                    alt=""
+                    style={{
+                      width: "110px",
+                      borderRadius: "30px 0",
+                      height: "130px",
+                      objectFit: "cover",
+                    }}
+                  />
                 </article>
               </div>
             );

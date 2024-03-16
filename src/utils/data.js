@@ -94,65 +94,136 @@ export const clients = [
     rate: "4.9/5",
     name: "Sara Ahmed",
   },
+  {
+    id: nanoid(),
+    title: "يوصي به",
+    text: "تطبيق آمن وسريع ويتيميز بواجهة استخدام سهلة وبسيطة ",
+    image: "/assets/new/photo_2024-03-16_00-49-22.jpg",
+    calender: "10/1",
+    rate: "4.9/5",
+    name: "Amr Ahmed",
+  },
 ];
+// export const screens = [
+//   {
+//     id: nanoid(),
+//     image: "/assets/New folder/cardatails_nav.png",
+//   },
+//   {
+//     id: nanoid(),
+//     image: "/assets/New folder/transfer_nav2.png",
+//   },
+//   {
+//     id: nanoid(),
+//     image: "/assets/New folder/transfer_nav.png",
+//   },
+//   {
+//     id: nanoid(),
+//     image: "/assets/New folder/status.png",
+//   },
+//   {
+//     id: nanoid(),
+//     image: "/assets/New folder/buyer.png",
+//   },
+//   {
+//     id: nanoid(),
+//     image: "/assets/New folder/fingerprint.png",
+//   },
+//   {
+//     id: nanoid(),
+//     image: "/assets/New folder/forgetpass.png",
+//   },
+//   {
+//     id: nanoid(),
+//     image: "/assets/New folder/transfer.png",
+//   },
+//   {
+//     id: nanoid(),
+//     image: "/assets/New folder/seller.png",
+//   },
+//   {
+//     id: nanoid(),
+//     image: "/assets/New folder/login.png",
+//   },
+//   {
+//     id: nanoid(),
+//     image: "/assets/New folder/datails.png",
+//   },
+//   {
+//     id: nanoid(),
+//     image: "/assets/New folder/notifications.png",
+//   },
+//   {
+//     id: nanoid(),
+//     image: "/assets/New folder/signup.png",
+//   },
+//   {
+//     id: nanoid(),
+//     image: "/assets/New folder/steps.png",
+//   },
+
+// ];
 export const screens = [
   {
     id: nanoid(),
-    image: "/assets/New folder/cardatails_nav.png",
+    image: "/assets/new/1.jpg",
   },
   {
     id: nanoid(),
-    image: "/assets/New folder/transfer_nav2.png",
+    image: "/assets/new/2.jpg",
   },
   {
     id: nanoid(),
-    image: "/assets/New folder/transfer_nav.png",
+    image: "/assets/new/3.jpg",
   },
   {
     id: nanoid(),
-    image: "/assets/New folder/status.png",
+    image: "/assets/new/4.jpg",
   },
   {
     id: nanoid(),
-    image: "/assets/New folder/buyer.png",
+    image: "/assets/new/5.jpg",
   },
   {
     id: nanoid(),
-    image: "/assets/New folder/fingerprint.png",
+    image: "/assets/new/6.jpg",
   },
   {
     id: nanoid(),
-    image: "/assets/New folder/forgetpass.png",
+    image: "/assets/new/7.jpg",
   },
   {
     id: nanoid(),
-    image: "/assets/New folder/transfer.png",
+    image: "/assets/new/8.jpg",
   },
   {
     id: nanoid(),
-    image: "/assets/New folder/seller.png",
+    image: "/assets/new/9.jpg",
   },
   {
     id: nanoid(),
-    image: "/assets/New folder/login.png",
+    image: "/assets/new/10.jpg",
   },
   {
     id: nanoid(),
-    image: "/assets/New folder/datails.png",
+    image: "/assets/new/11.jpg",
   },
   {
     id: nanoid(),
-    image: "/assets/New folder/notifications.png",
+    image: "/assets/new/12.jpg",
   },
   {
     id: nanoid(),
-    image: "/assets/New folder/signup.png",
+    image: "/assets/new/13.jpg",
   },
   {
     id: nanoid(),
-    image: "/assets/New folder/steps.png",
+    image: "/assets/new/14.jpg",
   },
-
+  {
+    id: nanoid(),
+    image: "/assets/new/15.jpg",
+  },
 ];
 
 export const features = [

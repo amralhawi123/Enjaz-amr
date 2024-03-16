@@ -6,15 +6,15 @@ function Screens() {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 1,
+    slidesToShow: 3,
+    slidesToScroll: 3,
   };
 
   return (
     <section className="bg-[#9ff2bb33] opinions" id="opinions">
       <div className="section-container">
         <h2 className="mb-[1rem] sm:mb-[2rem] text-center text-4xl font-bold">
-          <span className="text-[#1BAC4B]">الشاشات الخاصة بالتطبيق</span>
+          <span className="text-[#1BAC4B]"> بعض الشاشات الخاصة بنا:</span>
         </h2>
         <Slider {...settings}>
           {screens.map((screen) => {
@@ -27,14 +27,16 @@ function Screens() {
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
+                    backgroundColor:"#ecfcf1"
                   }}
                 >
-                  <img src={image} alt="" />
+                  <img src={image} alt="" className="hide-bg" />
                 </div>
               </div>
             );
           })}
         </Slider>
+
       </div>
     </section>
   );
