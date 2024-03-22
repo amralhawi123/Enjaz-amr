@@ -1,11 +1,11 @@
 import Slider from "react-slick";
 import { screens } from "../../utils/data";
 
-function Screens() {
+function MobileScreens() {
   const settings = {
-    dots: true,  
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    dots: true, 
+    slidesToShow: 2,
+    slidesToScroll: 2,
   };
 
   return (
@@ -25,19 +25,18 @@ function Screens() {
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
-                    backgroundColor:"#ecfcf1"
+                    backgroundColor: "#ecfcf1",
                   }}
                 >
-                  <img src={image} alt="" className="hide-bg" />
+                  <img src={image} alt="" className="hide-bg-mobile" />
                 </div>
               </div>
             );
           })}
         </Slider>
-
       </div>
     </section>
   );
 }
 
-export default Screens;
+export default MobileScreens;

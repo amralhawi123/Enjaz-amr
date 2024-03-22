@@ -165,63 +165,63 @@ export const clients = [
 // ];
 export const screens = [
   {
-    id: nanoid(),
+    id: 1,
     image: "/assets/new/1.jpg",
   },
   {
-    id: nanoid(),
+    id: 2,
     image: "/assets/new/2.jpg",
   },
   {
-    id: nanoid(),
+    id: 3,
     image: "/assets/new/3.jpg",
   },
   {
-    id: nanoid(),
+    id: 4,
     image: "/assets/new/4.jpg",
   },
   {
-    id: nanoid(),
+    id: 5,
     image: "/assets/new/5.jpg",
   },
   {
-    id: nanoid(),
+    id: 6,
     image: "/assets/new/6.jpg",
   },
   {
-    id: nanoid(),
+    id: 7,
     image: "/assets/new/7.jpg",
   },
   {
-    id: nanoid(),
+    id: 8,
     image: "/assets/new/8.jpg",
   },
   {
-    id: nanoid(),
+    id: 9,
     image: "/assets/new/9.jpg",
   },
   {
-    id: nanoid(),
+    id: 10,
     image: "/assets/new/10.jpg",
   },
   {
-    id: nanoid(),
+    id: 11,
     image: "/assets/new/11.jpg",
   },
   {
-    id: nanoid(),
+    id: 12,
     image: "/assets/new/12.jpg",
   },
   {
-    id: nanoid(),
+    id: 13,
     image: "/assets/new/13.jpg",
   },
   {
-    id: nanoid(),
+    id: 14,
     image: "/assets/new/14.jpg",
   },
   {
-    id: nanoid(),
+    id: 15,
     image: "/assets/new/15.jpg",
   },
 ];

@@ -11,6 +11,7 @@ import {
   Screens,
 } from "./components";
 import { Route, Routes } from "react-router-dom";
+import MobileScreens from "./components/Screens/MobileScreens";
 
 function App() {
   const [isMobile, setIsMobile] = useState(
@@ -37,7 +38,7 @@ function App() {
       <Route path="/" element={<Hero />} /> 
       <Route path="/how-it-works" element={<HowItWorks />} /> 
       <Route path="/opinions" element={<ClientsOpenion />}/>  
-      <Route path="/screens" element={<Screens />}/>  
+      <Route path="/screens" element={isMobile ? <MobileScreens /> : <Screens />}/>  
       <Route path="/features" element={<Features />}/> 
       <Route path="/contact" element={<Contact />} /> 
     </Routes>

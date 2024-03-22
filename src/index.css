@@ -37,9 +37,15 @@ section {
   width: 100%;
   height: 100%;
 }
-.hide-bg {
+.hide-bg ,
+.hide-bg-mobile{
   mix-blend-mode: multiply !important;
   filter: contrast(1);
   max-width: fit-content;
-  width: 700px;
+}
+.hide-bg{
+  width: 750px;
+}
+.hide-bg-mobile{
+  width: 500px;
 }
